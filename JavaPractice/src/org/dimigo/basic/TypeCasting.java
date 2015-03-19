@@ -4,7 +4,7 @@ public class TypeCasting {
 
 	public static void main(String[] args) {
 		int avgMoney = 1700000;
-		byte numPeople = 3;
+		byte numPeople = 3; 
 		int cntStore = 1500;
 		long total = (long)avgMoney * 12 * (long)numPeople * (long)cntStore;
 		
