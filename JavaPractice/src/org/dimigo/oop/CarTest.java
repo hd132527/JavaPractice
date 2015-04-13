@@ -1,5 +1,14 @@
 package org.dimigo.oop;
 
+/**
+ * <pre>
+ * org.dimigo.oop
+ * 1. 개요 : CarTest 클래스
+ * 2. 작성일 : 2015. 4. 13.
+ * </pre>
+ * @author 인호
+ *
+ */
 public class CarTest {
 	public static void main(String[] args) {
 		Car car1 = new Car();
