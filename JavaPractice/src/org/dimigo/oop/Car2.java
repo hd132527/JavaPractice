@@ -46,5 +46,25 @@ public class Car2 {
 	public int getPrice() {
 		return price;
 	}
+/*
+	public void setCompany(String newcompany) {
+		company = newcompany;
+	}
 	
+	public void setModel(String newmodel) {
+		model = newmodel;
+	}
+	
+	public void setColor(String newcolor) {
+		color = newcolor;
+	}
+	
+	public void setMaxSpeed(int newmaxSpeed) {
+		maxSpeed = newmaxSpeed;
+	}
+	
+	public void setPrice(int newprice) {
+		price = newprice;
+	}
+	*/
 }
