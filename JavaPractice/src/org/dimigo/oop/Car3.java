@@ -19,7 +19,15 @@ public class Car3 {
 	public Car3() {
 		
 	}
-	
+	/*
+	public Car2(String newcompany, String newmodel, String newcolor, int newMaxSpeed, int newPrice) {
+		company = newcompany;
+		model = newmodel;
+		color = newcolor;
+		maxSpeed = newMaxSpeed;
+		price = newPrice;
+	}
+	*/
 	public Car3(String company, String model, String color, int maxSpeed, int price) {
 		this.company = company;
 		this.model = model;
