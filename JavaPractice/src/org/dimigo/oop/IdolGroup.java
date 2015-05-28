@@ -11,7 +11,7 @@ public class IdolGroup {
 				{"유라", "소진", "민아", "혜리", "그외"}
 		};
 		/*
-		for(int i=0; i<idols.length; i++) {
+		for(int i=0; i<idolGroup.length; i++) {
 			System.out.println("<< " + idolGroup[i] + " 멤버 >>");
 			for(int j=0; j<idols[i].length; j++) {
 				System.out.println(idols[i][j]);
@@ -19,7 +19,7 @@ public class IdolGroup {
 			System.out.println();
 		}
 		*/	
-		for(int i=0; i<idols.length; i++) {
+		for(int i=0; i<idolGroup.length; i++) {
 			System.out.println("<< " + idolGroup[i] + " 멤버 >>");
 			for(String value:idols[i]) {
 				System.out.println(value);
