@@ -21,7 +21,9 @@ public class PiggyBankTest {
 		
 		PiggyBank.putMoney(FamilyMembers[2], 1000);
 		PiggyBank.printBalance();
-		
+
+		PiggyBank.stoleMoney(FamilyMembers[2], 1000);
+		PiggyBank.printBalance();
 
 	}
 
