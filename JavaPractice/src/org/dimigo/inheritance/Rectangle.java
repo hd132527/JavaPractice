@@ -20,5 +20,9 @@ public class Rectangle extends Figure{
 		return (width * height);
 	}
 	
+	protected void printCenter() {
+		System.out.print("사각형 ");
+		super.printCenter();
+	}
 
 }
