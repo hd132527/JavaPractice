@@ -27,12 +27,12 @@ public class SmartPhone {
 		
 	}
 	
-	public void useSpecialFunction(SmartPhone phone) {
-		if(phone instanceof IPhone) {
-			IPhone i = (IPhone) phone;
+	public void useSpecialFunction() {
+		if(this instanceof IPhone) {
+			IPhone i = (IPhone) this;
 			i.useAirDrop();
 		} else {
-			Galaxy g = (Galaxy) phone;
+			Galaxy g = (Galaxy) this;
 			g.useWirelessCharging();
 		}
 	}
